@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <link id='favicon' rel='icon' type='image/png' href='#'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+    <meta name='keywords' content='node.js,node,angular,angularjs,react,reactjs,development,robert klep,frontend,backend,nosql'>
+    <meta name='description' content='Robert Klep is an experienced frontend and backend web developer.'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,500' rel='stylesheet' type='text/css'>
+    <style>
+      * { box-sizing: border-box }
+
+      html, body {
+        margin          : 0;
+        padding         : 0;
+        width           : 100vw;
+        height          : 100vh;
+        font-family     : Ubuntu, georgia, sans-serif;
+        font-size       : 28pt;
+        font-weight     : 300;
+        display         : flex;
+        align-items     : center;
+        justify-content : center;
+      }
+
+      @media (max-width: 600px) {
+        body { font-size : 16pt }
+      }
+
+      a {
+        color       : inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      div {
+        text-align  : center;
+      }
+
+      em {
+        font-style    : normal;
+        font-weight   : 500;
+        display       : inline-block;
+        margin-right  : 0.5em;
+        border-bottom : 3px solid #ee7600;
+      }
+
+      ul, li {
+        margin     : 0;
+        padding    : 0;
+        list-style : none;
+        font-size  : 85%;
+        font-style : italic;
+        color      : #333;
+      }
+
+      li {
+        margin-top : 1.5em;
+        display    : inline-block;
+      }
+
+      li::after {
+        content : '•';
+        margin  : 0 0.25em 0 0.5em;
+        width   : 0;
+      }
+
+      li:last-child::after {
+        content : '';
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <em>HAmed KEshavarz MOhammadian</em> Mobile & Web Developer
+      <ul>
+        <li><a href='https://github.com/hakemo26/'>github</a></li>
+        <li><a href='https://stackoverflow.com/users/5894291/hamed-keshavarz-m'>stackoverflow</a></li>
+        <li><a href='http://hakemo26.cvbuilder.me/'>CV</a></li>
+        <li><a href='https://instagram.com/hakemo26'>instagram</a></li>
+        <li><a href='https://t.me/hakemo26'>telegram</a></li>
+      </ul>
+    </div>
+    <canvas id='canvas' width='16' height='16' style='display:none'></canvas>
+    <script src='js/plasma.js'></script>
+  </body>
+</html>
